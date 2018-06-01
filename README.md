@@ -1,2 +1,2 @@
 # pcb_manifesto
-the ultimate guide to PCB designing in altium18 (based on personal experiences)
+the ultimate guide for PCB designing in altium18 (based on ultimate personal experiences)
