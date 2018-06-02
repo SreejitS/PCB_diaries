@@ -2,12 +2,18 @@
 (http://blog.mbedded.ninja/electronics/general/altium/altium-tricks-and-standards)
 fedevel : (https://www.youtube.com/watch?v=3mpfB3EG5wo&list=PLnu0ebRNuLjWSTZV2YUPsQzUOIG5RmzLM)
 folder structure : (https://www.fedevel.com/welldoneblog/wp-content/uploads/2013/10/FEDEVEL-Academy-Directory-Template.pdf)
+TIPS and standard practices : (https://www.fedevel.com/welldoneblog/category/hardware_design/page/11/)
+							  (https://www.youtube.com/watch?v=ZpMvKJzZk90&list=PLXvLToQzgzddPKq_txEXNe0pxaSHqPtMO)
 
 way to manage components specifications
 PCB Symbol Naming Convention
 Component Description Standards
 
+make DRC rules compliant with PCBpower 
 standard things to add to a PCB design(eg date version logo etc)
 what grid to use
 naming of components inside integrated library
 standard layers and their functions
+procedure to check the design files(in various levels : functional, manufaturing, logical, wiring, compliance with datasheets)
+power plane routing ?? via stichng, noise supression, low crosstalk
+

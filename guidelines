@@ -29,7 +29,17 @@ suggestion : try youtube videos
         *.PcbDocs
     >Manufacturing
         Gerbers+NC Drill+Readme and notes to manufacturer
-    PCB description.txt       
+    PCB description.txt  
+
+4.Standard practices : 
+    Name all the important nets so that during layout yo immediately know what net you are routing. 
+
+5.Style guide : 
+    i will be listing robert ferancac's tips : 
+    -create a board release procedure
+    -Put a big title on the top of each page and put a small title for each chip / connector
+    -Under a component with exposed pad (EP), place caps with gnd and power pins oriented
+    - Add “PCB only” components into your schematic (mounting holes, fiducials, ...) set the as no BOM type        
     
 
         
