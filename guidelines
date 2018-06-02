@@ -1,0 +1,29 @@
+Library used is Celestial Library Database.Naming convention is same as used there.
+
+1.Component naming convention : 
+    a)Passives
+        Footprint name: 
+        Capacitors : Capacitor <package size (imperial)>/<package size (metric)>
+        eg: CAP 0603/1608
+        
+        Resistors : Resistor <package size (imperial)>/<package size (metric)>
+        eg: RES 0603/1608
+        
+        Description : 
+        Capacitors : Capacitor, <type>, <capacitance>, <voltage>, <temperature coefficient>, <package size (imperial)>
+        eg: CAP CER 0.1UF 16V X7R 0402 
+        
+        Resistors : Resistor, <type>,<resistance>, <tolerance>, <rated power>, <package size (imperial)>
+        eg: RES SMD 1K OHM 1% 1/10W 0402
+        
+Thought : make a integrated library for each PCB project containing all the packages requires for it. it will be faster than maintaing the huge database.
+
+2.Template altium project file : 
+
+3.Standard folder structure for Altium files : 
+>Project Name
+    >Library
+        >
+    
+
+        
