@@ -16,14 +16,19 @@ Library used is Celestial Library Database.Naming convention is same as used the
         Resistors : Resistor, <type>,<resistance>, <tolerance>, <rated power>, <package size (imperial)>
         eg: RES SMD 1K OHM 1% 1/10W 0402
         
-Thought : make a integrated library for each PCB project containing all the packages requires for it. it will be faster than maintaing the huge database.
-
 2.Template altium project file : 
 
 3.Standard folder structure for Altium files : 
 >Project Name
-    >Library
-        >
+    >Integrated Library
+        >3D Models(step files)
+    >Datasheets
+    >Design Files
+        *.SchDocs
+        *.PcbDocs
+    >Manufacturing
+        Gerbers+NC Drill+Readme and notes to manufacturer
+    PCB description.txt       
     
 
         
