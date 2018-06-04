@@ -19,7 +19,7 @@ Library used is Celestial Library Database.Naming convention is same as used the
 2.Template altium project file : 
 suggestion : try youtube videos
 
-3.Standard folder structure for Altium files : 
+3.Standard folder structure for Altium files : created a "altium_template_folder.bat" to output the folder structure.
 >Project Name
     >Integrated Library
         >3D Models(step files)
@@ -32,6 +32,7 @@ suggestion : try youtube videos
     PCB description.txt  
 
 4.Standard practices : 
+consider the style guide(5th point) and make few important tips as standard and mandatory. 
     
 
 5.Style guide : 
@@ -47,4 +48,18 @@ suggestion : try youtube videos
     -(#75)Consider not using dot (“.”) in symbol description e.g. 2.2uH. Do it this way instead 2u2
     -(#73)If you are not 100% sure if a circuit is going to work correctly, add bypass and other test ckts.
     -(#70)You may want to use 1% resistors instead of 5% resistors
-        
+    -(#66) Include voltage value in power net name
+    -(#60)Use the same number of Pins and Pads between Schematic Symbol and Footprint ie dont hide EPAD etc.
+    -(#59)Use optional resistors to re-route one interface to more places
+    -(#58)Create board variants (if your CAD software supports it)
+    -(#55)Use different footprint for resistors and capacitors, even they are same size (e.g. 0805)
+    -(#53)Create net classes (if your CAD system supports it)
+    -(#51)In your schematic, always create a cover page with list of pages and page numbers
+    -(#50)Read Errata documents
+    -(#49)Place crystals close to the chip to keep the tracks as short as possible
+    -(#46)Check pin ordering of your footprint
+    -(#43)When you create a schematic symbol, list all pin alternate functions
+    -(#41)Add more information on silkscreen of some components (connectors, slots, …)
+    -(#39)Be careful how you order pins on your connectors
+    -(#35)Use ferrite beads or 0R resistors on powers
+    -(#24)Place Reference point (the x=0,y=0 point) of a footprint for pick and place file
