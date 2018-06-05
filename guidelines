@@ -33,6 +33,7 @@ suggestion : try youtube videos
 
 4.Standard practices : 
 consider the style guide(5th point) and make few important tips as standard and mandatory. 
+a way to check schematic symbols with datasheets whle making Integrated libraries. 
     
 
 5.Style guide : 
@@ -63,3 +64,11 @@ consider the style guide(5th point) and make few important tips as standard and 
     -(#39)Be careful how you order pins on your connectors
     -(#35)Use ferrite beads or 0R resistors on powers
     -(#24)Place Reference point (the x=0,y=0 point) of a footprint for pick and place file
+    -(#18)Always create a BOX around the ribbon cable headers
+    -(#15)Create a TODO file to list the changes for the next board version
+    -(#12)Put useful notes / screenshots / tables into schematic
+    -(#10)Once you name a net, always copy and paste its name. Never re-write it manually.
+    -(#6)Always create specific schematic symbol for every component type.Use the celestial DB library.
+    -(#4)Add a page reference next to the ports
+    -(#3)Use “+” sign as a prefix of all your power net names
+    
