@@ -1,0 +1,10 @@
+1.started with figuring out how to transfer a component from the celestial dblib, with all its supplier links and other parameters into my own integrated libaray. It was a really painful and slow experiment.
+ Finally found out that parts search in Altium will do the trick,just drag and drop.
+
+2.I decided to follow the guidelines and thought of adding alternate functions in each pin of stm32f401 uC instead of just PA0,PA1 etc.
+
+3.It took me some time to figure out, but STM32CubeMX can generate the pinouts with or without alternate functions into a csv file. I opened it in google sheets and merged the coloums delimited by "," to generate the pin names with all their alternate functions. 
+
+4.Next, using smart grid copy and schlib, I pasted them into the coloumns.(TIP : sort the list by the pin numbers b4 pasting)
+
+5." / " is a better delimiter the "," though it takes up lot of space.

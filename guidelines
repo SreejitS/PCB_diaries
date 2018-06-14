@@ -62,6 +62,7 @@ a way to check schematic symbols with datasheets whle making Integrated librarie
     -(#43)When you create a schematic symbol, list all pin alternate functions
     -(#41)Add more information on silkscreen of some components (connectors, slots, …)
     -(#39)Be careful how you order pins on your connectors
+    -(#37)Use “.Checked PCB” ".Checked SCH" as component parameters
     -(#35)Use ferrite beads or 0R resistors on powers
     -(#24)Place Reference point (the x=0,y=0 point) of a footprint for pick and place file
     -(#18)Always create a BOX around the ribbon cable headers
@@ -71,4 +72,9 @@ a way to check schematic symbols with datasheets whle making Integrated librarie
     -(#6)Always create specific schematic symbol for every component type.Use the celestial DB library.
     -(#4)Add a page reference next to the ports
     -(#3)Use “+” sign as a prefix of all your power net names
+    
+    The following are from his blog apart from the TIPS:
+    -(https://www.fedevel.com/welldoneblog/2016/07/7-tips-to-make-your-schematic-look-professional/)
+    -(https://www.fedevel.com/welldoneblog/2015/12/how-to-check-my-schematic-step-by-step-tutorial/)
+    -(https://www.fedevel.com/welldoneblog/2016/07/9-essential-tips-for-schematic-design-you-might-not-be-doing/)
     
